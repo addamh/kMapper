@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC8F93861362735400C711F3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8F93851362735400C711F3 /* Cocoa.framework */; };
+		AC8F93881362735400C711F3 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8F93871362735400C711F3 /* MacRuby.framework */; };
+		AC8F938A1362735400C711F3 /* ARCHS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8F93891362735400C711F3 /* ARCHS.framework */; };
+		AC8F938C1362735400C711F3 /* x86_64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8F938B1362735400C711F3 /* x86_64.framework */; };
+		AC8F93931362735500C711F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC8F93911362735500C711F3 /* InfoPlist.strings */; };
+		AC8F93961362735600C711F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8F93951362735600C711F3 /* main.m */; };
+		AC8F939A1362735700C711F3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC8F93981362735700C711F3 /* MainMenu.xib */; };
+		AC8F939D1362735700C711F3 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = AC8F939C1362735700C711F3 /* rb_main.rb */; };
+		AC8F939F1362735800C711F3 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = AC8F939E1362735800C711F3 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC8F93811362735400C711F3 /* kMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC8F93851362735400C711F3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AC8F93871362735400C711F3 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		AC8F93891362735400C711F3 /* ARCHS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARCHS.framework; path = System/Library/Frameworks/ARCHS.framework; sourceTree = SDKROOT; };
+		AC8F938B1362735400C711F3 /* x86_64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = x86_64.framework; path = System/Library/Frameworks/x86_64.framework; sourceTree = SDKROOT; };
+		AC8F93901362735500C711F3 /* kMapper-Info.plist */ = {isa = PBXFileReference; path = "kMapper-Info.plist"; sourceTree = "<group>"; };
+		AC8F93921362735500C711F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC8F93941362735500C711F3 /* kMapper-Prefix.pch */ = {isa = PBXFileReference; path = "kMapper-Prefix.pch"; sourceTree = "<group>"; };
+		AC8F93951362735600C711F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AC8F93991362735700C711F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC8F939C1362735700C711F3 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		AC8F939E1362735800C711F3 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC8F937E1362735400C711F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8F93861362735400C711F3 /* Cocoa.framework in Frameworks */,
+				AC8F93881362735400C711F3 /* MacRuby.framework in Frameworks */,
+				AC8F938A1362735400C711F3 /* ARCHS.framework in Frameworks */,
+				AC8F938C1362735400C711F3 /* x86_64.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC8F93761362735400C711F3 = {
+			isa = PBXGroup;
+			children = (
+				AC8F938E1362735500C711F3 /* kMapper */,
+				AC8F93841362735400C711F3 /* Frameworks */,
+				AC8F93821362735400C711F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC8F93821362735400C711F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F93811362735400C711F3 /* kMapper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC8F93841362735400C711F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F93851362735400C711F3 /* Cocoa.framework */,
+				AC8F93871362735400C711F3 /* MacRuby.framework */,
+				AC8F93891362735400C711F3 /* ARCHS.framework */,
+				AC8F938B1362735400C711F3 /* x86_64.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC8F938E1362735500C711F3 /* kMapper */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F939E1362735800C711F3 /* AppDelegate.rb */,
+				AC8F93971362735700C711F3 /* Resources */,
+				AC8F939B1362735700C711F3 /* Other Sources */,
+				AC8F938F1362735500C711F3 /* Supporting Files */,
+			);
+			path = kMapper;
+			sourceTree = "<group>";
+		};
+		AC8F938F1362735500C711F3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F93901362735500C711F3 /* kMapper-Info.plist */,
+				AC8F93911362735500C711F3 /* InfoPlist.strings */,
+				AC8F93941362735500C711F3 /* kMapper-Prefix.pch */,
+				AC8F93951362735600C711F3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AC8F93971362735700C711F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F93981362735700C711F3 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AC8F939B1362735700C711F3 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AC8F939C1362735700C711F3 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		AC8F938D1362735500C711F3 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = AC8F93A51362735800C711F3 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		AC8F93801362735400C711F3 /* kMapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC8F93A21362735800C711F3 /* Build configuration list for PBXNativeTarget "kMapper" */;
+			buildPhases = (
+				AC8F937D1362735400C711F3 /* Sources */,
+				AC8F937E1362735400C711F3 /* Frameworks */,
+				AC8F937F1362735400C711F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kMapper;
+			productName = kMapper;
+			productReference = AC8F93811362735400C711F3 /* kMapper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC8F93781362735400C711F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "3Pipe Development";
+			};
+			buildConfigurationList = AC8F937B1362735400C711F3 /* Build configuration list for PBXProject "kMapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AC8F93761362735400C711F3;
+			productRefGroup = AC8F93821362735400C711F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC8F93801362735400C711F3 /* kMapper */,
+				AC8F938D1362735500C711F3 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC8F937F1362735400C711F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8F93931362735500C711F3 /* InfoPlist.strings in Resources */,
+				AC8F939A1362735700C711F3 /* MainMenu.xib in Resources */,
+				AC8F939D1362735700C711F3 /* rb_main.rb in Resources */,
+				AC8F939F1362735800C711F3 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC8F937D1362735400C711F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC8F93961362735600C711F3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC8F93911362735500C711F3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8F93921362735500C711F3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AC8F93981362735700C711F3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC8F93991362735700C711F3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC8F93A01362735800C711F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AC8F93A11362735800C711F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AC8F93A31362735800C711F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kMapper/kMapper-Prefix.pch";
+				INFOPLIST_FILE = "kMapper/kMapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AC8F93A41362735800C711F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kMapper/kMapper-Prefix.pch";
+				INFOPLIST_FILE = "kMapper/kMapper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AC8F93A61362735800C711F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		AC8F93A71362735800C711F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC8F937B1362735400C711F3 /* Build configuration list for PBXProject "kMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8F93A01362735800C711F3 /* Debug */,
+				AC8F93A11362735800C711F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC8F93A21362735800C711F3 /* Build configuration list for PBXNativeTarget "kMapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8F93A31362735800C711F3 /* Debug */,
+				AC8F93A41362735800C711F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AC8F93A51362735800C711F3 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8F93A61362735800C711F3 /* Debug */,
+				AC8F93A71362735800C711F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC8F93781362735400C711F3 /* Project object */;
+}
