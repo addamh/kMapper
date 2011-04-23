@@ -1,1 +1,0 @@
-../universal-darwin10.0/ruby/config.h
