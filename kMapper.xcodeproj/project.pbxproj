@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC0AFBF0136332BC00D4534B /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0AFBEF136332BC00D4534B /* MacRuby.framework */; };
 		AC8F93861362735400C711F3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8F93851362735400C711F3 /* Cocoa.framework */; };
 		AC8F93931362735500C711F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC8F93911362735500C711F3 /* InfoPlist.strings */; };
 		AC8F93961362735600C711F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8F93951362735600C711F3 /* main.m */; };
 		AC8F939D1362735700C711F3 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = AC8F939C1362735700C711F3 /* rb_main.rb */; };
 		AC8F939F1362735800C711F3 /* kMapperController.rb in Resources */ = {isa = PBXBuildFile; fileRef = AC8F939E1362735800C711F3 /* kMapperController.rb */; };
-		AC8F93A91362740500C711F3 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC8F93A81362740500C711F3 /* MacRuby.framework */; };
 		AC8F93AB1362744F00C711F3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC8F93AA1362744F00C711F3 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC0AFBEF136332BC00D4534B /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		AC8F93811362735400C711F3 /* kMapper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kMapper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC8F93851362735400C711F3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		AC8F93901362735500C711F3 /* kMapper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kMapper-Info.plist"; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		AC8F93951362735600C711F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC8F939C1362735700C711F3 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		AC8F939E1362735800C711F3 /* kMapperController.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = kMapperController.rb; sourceTree = "<group>"; };
-		AC8F93A81362740500C711F3 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MacRuby.framework; sourceTree = "<group>"; };
 		AC8F93AA1362744F00C711F3 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,7 +35,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC8F93861362735400C711F3 /* Cocoa.framework in Frameworks */,
-				AC8F93A91362740500C711F3 /* MacRuby.framework in Frameworks */,
+				AC0AFBF0136332BC00D4534B /* MacRuby.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +62,7 @@
 		AC8F93841362735400C711F3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AC8F93A81362740500C711F3 /* MacRuby.framework */,
+				AC0AFBEF136332BC00D4534B /* MacRuby.framework */,
 				AC8F93851362735400C711F3 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -310,6 +310,7 @@
 				AC8F93A41362735800C711F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AC8F93A51362735800C711F3 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -318,6 +319,7 @@
 				AC8F93A71362735800C711F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
